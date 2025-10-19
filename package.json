@@ -1,0 +1,29 @@
+{
+  "name": "memory-card-game",
+  "version": "1.0.0",
+  "description": "A fun memory card matching game built with Vue 3",
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "dev": "webpack serve --mode development",
+    "start": "webpack serve --mode development"
+  },
+  "dependencies": {
+    "vue": "^3.3.0",
+    "vue-router": "^4.2.0",
+    "vuex": "^4.1.0"
+  },
+  "devDependencies": {
+    "@vue/cli-service": "^5.0.8",
+    "vue-loader": "^17.0.0",
+    "webpack": "^5.88.0",
+    "webpack-cli": "^4.10.0",
+    "webpack-dev-server": "^4.15.0",
+    "html-webpack-plugin": "^5.5.0",
+    "css-loader": "^6.8.1",
+    "style-loader": "^3.3.3",
+    "babel-loader": "^9.1.2",
+    "@babel/core": "^7.22.0",
+    "@babel/preset-env": "^7.22.0"
+  }
+}
